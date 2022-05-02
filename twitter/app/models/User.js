@@ -8,16 +8,24 @@ class User{
         this.lastUpdated = new Date()
     }
 
+    get getId(){
+        return this.id
+    }
+
+    get getName(){
+        return this.name
+    }
+
     get getUsername(){
         return this.username
     }
 
-    get getBio(){
-        return this.bio
-    }
-
     get getDateCreated(){
         return this.dateCreated
+    }
+
+    get getBio(){
+        return this.bio
     }
 
     get getLastUpdated(){
